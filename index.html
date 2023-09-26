@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+        <nav>
+            <h1>Upload System</h1>
+        </nav>
+        <p>This is a test assignment for a resilient file upload system.</p>
+    </header>
+    <div class="upload-container">
+        <h2>Upload your file</h2>
+        <div class="upload-btn-wrapper">
+            <button class="btn">Choose a file</button>
+            <input type="file" name="myfile" onchange="handleFileSelect(event)" />
+        </div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="error-message"></div>
+    </div>
+    <footer>
+        &copy; 2023 Upload System. All rights reserved.
+    </footer>
+</div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
